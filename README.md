@@ -3,6 +3,8 @@
 ## Description
 MHF publishes real stories to educate and inspire those living with mental problems.The MHF Stories are gathered from people with experiencing mental health problems, families affected by mental problems and therapists treating those cases.
 
+![alt text](http://url/to/mhs.png)
+
 
 ## Development
 
