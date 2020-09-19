@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-3">
+        <span class="hipster img-fluid rounded"></span>
+    </div>
+
+    <div class="col-md-9">
+        <h1 class="display-4">Welcome to Mental health first</h1>
+
+        <p class="lead">What is health</p>
+        <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
+        <p class="lead">Mental health first</p>
+        <p>MHF publishes real stories to educate and inspire those living with mental problems.The MHF Stories are gathered from people with experiencing mental health problems, families affected by mental problems and therapists treating those cases.<p>
+        <div [ngSwitch]="isAuthenticated()">
+            <div class="alert alert-warning" *ngSwitchCase="false">
+                <span>You don't have an account yet?</span>&nbsp;
+                <a class="alert-link" routerLink="account/register">Register a new account</a>
+            </div>
+            <div class="alert alert-warning" *ngSwitchCase="false">
+                <span>Already have an account ?</span>&nbsp;
+                <a class="alert-link"  (click)="login()" id="login" >Sign in</a>
+            </div>
+        </div>
+       
+        <p>
+            Follow us on social media:
+        </p>
+
+        <ul>
+
+            <li><a href="https://twitter.com/nglsee" target="_blank" rel="noopener noreferrer">follow @nglsee on Twitter</a></li>
+        </ul>
+    </div>
+</div>
