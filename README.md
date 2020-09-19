@@ -6,6 +6,8 @@ MHF publishes real stories to educate and inspire those living with mental probl
 ![alt text](https://github.com/angelsplato/images/blob/master/mhs.png)
 
 
+[Link to hosted site](https://mental-health-first.herokuapp.com/)
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
